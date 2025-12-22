@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9fafb;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .content {
+      padding: 40px;
+    }
+    .button {
+      display: inline-block;
+      padding: 16px 32px;
+      background: #FF6B9D;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      margin: 20px 0;
+    }
+    .footer {
+      background: #f9fafb;
+      padding: 30px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🐱 Witaj w CAT PURRE!</h1>
+    </div>
+    <div class="content">
+      <h2>Cześć {{firstName}}!</h2>
+      <p>Cieszymy się, że dołączyłeś do naszej społeczności miłośników kotów rasowych.</p>
+      
+      <p>Co możesz teraz zrobić:</p>
+      <ul>
+        <li>🔍 Przeglądaj ponad 500 kotów od zweryfikowanych hodowców</li>
+        <li>🤖 Skorzystaj z AI asystenta do dopasowania rasy</li>
+        <li>💬 Rozmawiaj z hodowcami w czasie rzeczywistym</li>
+        <li>📸 Odkrywaj CatTok - TikTok dla kotów</li>
+      </ul>
+
+      <center>
+        <a href="{{frontendUrl}}" class="button">Rozpocznij przeglądanie 🚀</a>
+      </center>
+
+      <p>Masz pytania? Napisz do nas: <a href="mailto:contact@catpurre.pl">contact@catpurre.pl</a></p>
+    </div>
+    <div class="footer">
+      <p>© 2025 CAT PURRE. Wszystkie prawa zastrzeżone.</p>
+      <p>Nie chcesz otrzymywać emaili? <a href="{{unsubscribeUrl}}">Wypisz się</a></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "CAT PURRE",
+    "tagline": "Professionelle Rassekatzen-Plattform",
+    "welcome": "Willkommen bei CAT PURRE"
+  },
+  "nav": {
+    "home": "Startseite",
+    "breeds": "Rassen",
+    "breeders": "Züchter",
+    "search": "Suchen",
+    "favorites": "Favoriten",
+    "messages": "Nachrichten",
+    "profile": "Profil",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "search": {
+    "title": "Finden Sie Ihre Traumkatze",
+    "breed": "Rasse",
+    "location": "Standort",
+    "price": "Preis",
+    "age": "Alter",
+    "gender": "Geschlecht",
+    "color": "Farbe",
+    "button": "Katzen suchen"
+  }
+}

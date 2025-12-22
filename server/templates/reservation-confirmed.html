@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9fafb;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .header {
+      background: #34C759;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    .content {
+      padding: 40px;
+    }
+    .info-box {
+      background: #f9fafb;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>✅ Rezerwacja potwierdzona!</h1>
+    </div>
+    <div class="content">
+      <h2>Gratulacje!</h2>
+      <p>Twoja rezerwacja została potwierdzona.</p>
+      
+      <div class="info-box">
+        <h3>Szczegóły rezerwacji:</h3>
+        <div class="info-row">
+          <span>Kot:</span>
+          <strong>{{catName}}</strong>
+        </div>
+        <div class="info-row">
+          <span>Rasa:</span>
+          <strong>{{breed}}</strong>
+        </div>
+        <div class="info-row">
+          <span>Hodowca:</span>
+          <strong>{{breederName}}</strong>
+        </div>
+        <div class="info-row">
+          <span>Cena:</span>
+          <strong>{{price}} PLN</strong>
+        </div>
+        <div class="info-row">
+          <span>Data rezerwacji:</span>
+          <strong>{{date}}</strong>
+        </div>
+      </div>
+
+      <h3>Następne kroki:</h3>
+      <ol>
+        <li>Hodowca skontaktuje się z Tobą w ciągu 24h</li>
+        <li>Umów wirtualną wizytę lub wizytę osobistą</li>
+        <li>Finalizuj transakcję</li>
+        <li>Odbierz swojego nowego przyjaciela!</li>
+      </ol>
+
+      <p>Kontakt do hodowcy: <a href="mailto:{{breederEmail}}">{{breederEmail}}</a></p>
+    </div>
+  </div>
+</body>
+</html>

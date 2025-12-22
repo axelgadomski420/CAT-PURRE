@@ -1,0 +1,67 @@
+{
+  "app": {
+    "name": "CAT PURRE",
+    "tagline": "Profesjonalna platforma rasowych kotów",
+    "welcome": "Witaj w CAT PURRE"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "breeds": "Rasy",
+    "breeders": "Hodowcy",
+    "search": "Szukaj",
+    "favorites": "Ulubione",
+    "messages": "Wiadomości",
+    "profile": "Profil",
+    "login": "Zaloguj",
+    "register": "Zarejestruj"
+  },
+  "search": {
+    "title": "Znajdź swojego wymarzonego kota",
+    "breed": "Rasa",
+    "location": "Lokalizacja",
+    "price": "Cena",
+    "age": "Wiek",
+    "gender": "Płeć",
+    "color": "Kolor",
+    "button": "Szukaj kotów"
+  },
+  "cat": {
+    "available": "Dostępny",
+    "reserved": "Zarezerwowany",
+    "sold": "Sprzedany",
+    "details": "Szczegóły",
+    "contact": "Skontaktuj się",
+    "addToFavorites": "Dodaj do ulubionych",
+    "share": "Udostępnij"
+  },
+  "breeder": {
+    "dashboard": "Panel hodowcy",
+    "addCat": "Dodaj kota",
+    "myCats": "Moje koty",
+    "litters": "Mioty",
+    "analytics": "Statystyki",
+    "contracts": "Umowy",
+    "settings": "Ustawienia",
+    "verified": "Zweryfikowany hodowca"
+  },
+  "ai": {
+    "recognize": "Rozpoznaj rasę",
+    "match": "Dopasuj kota",
+    "chat": "Czat z asystentem AI",
+    "estimate": "Oszacuj cenę",
+    "analyze": "Analizuj zdrowie"
+  },
+  "payment": {
+    "deposit": "Zadatek",
+    "full": "Pełna kwota",
+    "card": "Karta",
+    "transfer": "Przelew",
+    "blik": "BLIK"
+  },
+  "admin": {
+    "panel": "Panel administracyjny",
+    "users": "Użytkownicy",
+    "verification": "Weryfikacje",
+    "moderation": "Moderacja"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "CAT PURRE",
+    "tagline": "Professional Pedigree Cat Platform",
+    "welcome": "Welcome to CAT PURRE"
+  },
+  "nav": {
+    "home": "Home",
+    "breeds": "Breeds",
+    "breeders": "Breeders",
+    "search": "Search",
+    "favorites": "Favorites",
+    "messages": "Messages",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Register"
+  },
+  "search": {
+    "title": "Find your dream cat",
+    "breed": "Breed",
+    "location": "Location",
+    "price": "Price",
+    "age": "Age",
+    "gender": "Gender",
+    "color": "Color",
+    "button": "Search cats"
+  },
+  "cat": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "sold": "Sold",
+    "details": "Details",
+    "contact": "Contact",
+    "addToFavorites": "Add to favorites",
+    "share": "Share"
+  },
+  "breeder": {
+    "dashboard": "Breeder Dashboard",
+    "addCat": "Add Cat",
+    "myCats": "My Cats",
+    "litters": "Litters",
+    "analytics": "Analytics",
+    "contracts": "Contracts",
+    "settings": "Settings",
+    "verified": "Verified Breeder"
+  }
+}
